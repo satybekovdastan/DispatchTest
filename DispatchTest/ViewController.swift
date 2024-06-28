@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("feature moi ne trogai")
-        print("feature")
+        print("dev")
     }
 
 
