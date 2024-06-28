@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
     func tvoi() {
         print("poi")
-        print("feature moi ne trogai")
+        print("feature moi ne trogaite")
     }
 
     func moi() {
