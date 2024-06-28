@@ -16,6 +16,7 @@
 		426BF1BD2C2EB16E00127502 /* DispatchTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BF1BC2C2EB16E00127502 /* DispatchTestTests.swift */; };
 		426BF1C72C2EB16E00127502 /* DispatchTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BF1C62C2EB16E00127502 /* DispatchTestUITests.swift */; };
 		426BF1C92C2EB16E00127502 /* DispatchTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BF1C82C2EB16E00127502 /* DispatchTestUITestsLaunchTests.swift */; };
+		426BF1DB2C2EBCDB00127502 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BF1DA2C2EBCDB00127502 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,9 @@
 		426BF1C62C2EB16E00127502 /* DispatchTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTestUITests.swift; sourceTree = "<group>"; };
 		426BF1C82C2EB16E00127502 /* DispatchTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		426BF1D72C2EB1A000127502 /* First.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = First.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		426BF1D82C2EB2CD00127502 /* Third.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Third.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		426BF1D92C2EB2EE00127502 /* Second.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Second.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		426BF1DA2C2EBCDB00127502 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				426BF1AE2C2EB16E00127502 /* Assets.xcassets */,
 				426BF1B02C2EB16E00127502 /* LaunchScreen.storyboard */,
 				426BF1B32C2EB16E00127502 /* Info.plist */,
+				426BF1DA2C2EBCDB00127502 /* Extensions.swift */,
 			);
 			path = DispatchTest;
 			sourceTree = "<group>";
@@ -133,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				426BF1D72C2EB1A000127502 /* First.playground */,
+				426BF1D82C2EB2CD00127502 /* Third.playground */,
+				426BF1D92C2EB2EE00127502 /* Second.playground */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
@@ -271,6 +278,7 @@
 				426BF1AA2C2EB16C00127502 /* ViewController.swift in Sources */,
 				426BF1A62C2EB16B00127502 /* AppDelegate.swift in Sources */,
 				426BF1A82C2EB16B00127502 /* SceneDelegate.swift in Sources */,
+				426BF1DB2C2EBCDB00127502 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = AZ8XRFPTZM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DispatchTest/Info.plist;
@@ -464,7 +472,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = DAS.DispatchTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -479,7 +487,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = AZ8XRFPTZM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DispatchTest/Info.plist;
@@ -492,7 +500,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = DAS.DispatchTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
