@@ -16,6 +16,11 @@ class ViewController: UIViewController {
 
     func tvoi() {
         print("poi")
+        print("feature moi ne trogai")
+    }
+
+    func moi() {
+        print("anu")
     }
 
 }
