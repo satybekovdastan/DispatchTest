@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
     
     func fourth() {
-        print("fourth")
+        print("fourth dva tri ")
     }
 
 }
