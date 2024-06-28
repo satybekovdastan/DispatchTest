@@ -11,6 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tvoi()
+    }
+
+    func tvoi() {
+        print("poi")
         print("feature moi ne trogai")
     }
 
