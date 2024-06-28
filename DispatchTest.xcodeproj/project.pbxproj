@@ -50,6 +50,8 @@
 		426BF1C62C2EB16E00127502 /* DispatchTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTestUITests.swift; sourceTree = "<group>"; };
 		426BF1C82C2EB16E00127502 /* DispatchTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		426BF1D72C2EB1A000127502 /* First.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = First.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		426BF1D82C2EB2CD00127502 /* Third.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Third.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		426BF1D92C2EB2EE00127502 /* Second.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Second.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				426BF1D72C2EB1A000127502 /* First.playground */,
+				426BF1D82C2EB2CD00127502 /* Third.playground */,
+				426BF1D92C2EB2EE00127502 /* Second.playground */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
