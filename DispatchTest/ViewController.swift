@@ -23,6 +23,10 @@ class ViewController: UIViewController {
     func moi() {
         print("anu 2")
     }
+    
+    func tretii() {
+        print("Prikol")
+    }
 
 }
 
