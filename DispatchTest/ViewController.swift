@@ -13,6 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tvoi()
         print("moi")
+        moi()
     }
 
     func tvoi() {
