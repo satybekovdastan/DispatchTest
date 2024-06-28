@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
     
     func tretii() {
-        
+        print("Prikol")
     }
 
 }
