@@ -27,6 +27,10 @@ class ViewController: UIViewController {
     func tretii() {
         print("Prikol")
     }
+    
+    func fourth() {
+        print("fourth")
+    }
 
 }
 
