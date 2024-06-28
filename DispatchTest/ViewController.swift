@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     func moi() {
-        print("anu")
+        print("anu 2")
     }
 
 }
