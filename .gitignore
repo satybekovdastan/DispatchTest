@@ -177,3 +177,6 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+DispatchTest.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad/
+
